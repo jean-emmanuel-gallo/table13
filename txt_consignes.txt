@@ -1,0 +1,28 @@
+Tout fonctionne ! Maintenant on va complexisfier la chose : 
+
+Dans "Ajouter un nouveau thème" :  
+
+1- je choisirai le financement qui sera une liste déroulante me proposant les deux finan dispo dans ma db.json. 
+2- Une fois le financement choisi, je ne pourrai choisir que les formations (dispo par liste déroulante également) affiliées au finan
+3- Une fois la formation choisie, je ne pourrai choisir que les formateurs étant affiliés au finan de cette formation 
+
+
+Je te retransmets mes codes : 
+
+
+
+
+
+
+
+Bon, là on repart sur le formulaire d'ajout de l'évènement. 
+
+Désormais thème et financement(finan dans db.json) seront des listes déroulantes. 
+
+Si je choisis de séléctionner le theme en premier, alors le finan sera automatiquement choisi selon si le theme est FIFPL ou DPC. 
+
+De plus, le choix de formation influera sur le choix de date, par exemple la prescription infirmière dure 2 jours, donc si en choisissant dans "date Début" je choisis le 20/10/2024, "Date Fin" sera automatiquement sur 21/10/2024.
+
+
+Voici mes codes : 
+
